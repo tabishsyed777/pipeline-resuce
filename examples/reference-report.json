@@ -1,0 +1,236 @@
+{
+  "reward": 1,
+  "passed": 46,
+  "total": 46,
+  "checks": [
+    {
+      "name": "exact_cents_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "empty_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "duplicate_event_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "latest_refund_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "utc_boundary_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "tie_break_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "currency_and_sort_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "large_integer_money_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "generated_7_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "generated_19_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "generated_83_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "conflicting_duplicate_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "conflicting_duplicate_absent",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "missing_header_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "missing_header_absent",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "duplicate_header_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "duplicate_header_absent",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "extra_field_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "extra_field_absent",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "missing_field_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "missing_field_absent",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "bad_status_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "bad_status_absent",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "bad_currency_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "bad_currency_absent",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "bad_id_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "bad_id_absent",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "naive_time_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "naive_time_absent",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "invalid_date_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "invalid_date_absent",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "invalid_money_'NaN'_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "invalid_money_'NaN'_absent",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "invalid_money_'Infinity'_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "invalid_money_'Infinity'_absent",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "invalid_money_'-1'_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "invalid_money_'-1'_absent",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "invalid_money_'+1'_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "invalid_money_'+1'_absent",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "invalid_money_'1e3'_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "invalid_money_'1e3'_absent",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "invalid_money_'0.001'_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "invalid_money_'0.001'_absent",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "invalid_money_' 1'_existing",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "invalid_money_' 1'_absent",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "same_input_output_rejected",
+      "passed": true
+    }
+  ]
+}

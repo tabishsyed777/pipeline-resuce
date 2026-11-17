@@ -1,0 +1,22 @@
+schema_version = "1.4"
+
+[metadata]
+name = "pipeline-rescue"
+author_name = "Tabish Syed"
+description = "Repair a deterministic order-event pipeline with exact money and atomic output."
+
+[environment]
+cpus = 1
+memory_mb = 512
+build_timeout_sec = 120
+
+[agent]
+timeout_sec = 180
+
+[verifier]
+environment_mode = "separate"
+timeout_sec = 90
+
+[[artifacts]]
+source = "/app/pipeline.py"
+destination = "pipeline.py"

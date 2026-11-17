@@ -1,0 +1,4 @@
+services:
+  main:
+    network_mode: none
+    pids_limit: 64

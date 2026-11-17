@@ -1,0 +1,22 @@
+name: Terminal task verification
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -p test_unit.py -v
+      - run: python -m unittest discover -s tests -p test_integration.py -v
+      - run: pip install -r requirements-harbor.txt
+      - run: harbor run -p task -a oracle --jobs-dir work/harbor --job-name oracle
+      - run: python check_trials.py work/harbor/oracle 1
+      - run: harbor run -p task -a nop --jobs-dir work/harbor --job-name nop
+      - run: python check_trials.py work/harbor/nop 0
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: terminal-task-evidence
+          path: work/
